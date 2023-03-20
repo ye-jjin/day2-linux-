@@ -75,6 +75,8 @@
 | rm -r <디렉토리명> | 디렉토리 삭제 |
 | rm -f <파일명> | 파일 삭제 |
 
+![rm](https://user-images.githubusercontent.com/122597068/226322933-7eb6c58a-48aa-4705-9dbd-209b105685c7.png)
+
 ---
 
 ### cd 
@@ -88,6 +90,8 @@
 | cd / | root 디렉토리로 이동 |
 | cd ../ | 상위 디렉토리로 이동 |
 
+![cd](https://user-images.githubusercontent.com/122597068/226322999-62cf442a-dd4f-4cc3-9c09-5fd3a3cdf164.png)
+
 ---
 
 ### mv
@@ -100,6 +104,8 @@
 | mv<원본 파일명><옮기고 싶은 디렉토리명 >  | 해당 디렉토리로 파일 이동 |
 | mv<원본 디렉토리명><옮기고 싶은 디렉토리명> | 해당 디렉토리로 디텍토리 이동 |
 
+![mv](https://user-images.githubusercontent.com/122597068/226323077-d4db34c9-b94e-4dc6-9bf5-365a7e3b7a95.png)
+
 ---
 
 ### cp
@@ -111,6 +117,8 @@
 |cp<원본 파일명><복사하고 싶은 디렉토리명/ 복사해서 만들고 싶은 파일명> | 해당 디렉토리에 해당 파일명으로 사본 복사 |
 |cp -r<원본 디렉토리명><옮기고 싶은 디렉토리명>  | 원본 디렉토리의 하위 파일까지 해당 디렉토리로 복사 |
 
+![cp](https://user-images.githubusercontent.com/122597068/226323160-b428edd9-94a7-40bd-8992-b5b7afbfa0eb.png)
+
 ---
 
 ### cat
@@ -120,6 +128,8 @@
 |-----|-----|
 |cat <파일명1><파일명2> | 두 개 이상의 파일을 연달아 출력 |
 |cat -n <파일명1><파일명2> | 출력 결과 앞에 행을 붙여서 출력 |
+
+![cat](https://user-images.githubusercontent.com/122597068/226323227-2d7474b9-b6a7-4f9a-bc70-ebc68d8648be.png)
 
 ---
 
@@ -132,6 +142,8 @@
 |q| 종료 후 쉘창으로 복귀 |
 |enter| 1행 아래로 이동 |
 
+![less](https://user-images.githubusercontent.com/122597068/226323413-1cd186d3-ca88-43f3-8b28-a3c61b1820c1.png)
+
 ---
 
 ### tail
@@ -143,6 +155,8 @@
 |less <파일명>| 파일 내용 확인 |
 |q| 종료 후 쉘창으로 복귀 |
 |enter| 1행 아래로 이동 |
+
+![tail](https://user-images.githubusercontent.com/122597068/226323314-ef9ba5c5-9d5b-426d-8ae7-e14bd59fc4f7.png)
 
 ---
 
@@ -171,6 +185,8 @@
 |ps -x| 제어 터미널이 없는 프로세스 출력 |
 |ps -l| 자세한 형태의 정보 출력 |
 |ps -e| 모든 프로세스 상태 출력 |
+
+![ps](https://user-images.githubusercontent.com/122597068/226323549-f084840b-9354-42dd-903a-fd7783e8d460.png)
 
 ---
 
