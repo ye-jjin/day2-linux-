@@ -36,8 +36,10 @@
  </pre>
 
  - 코드
+ ![bin bash](https://user-images.githubusercontent.com/122597068/226344005-543c491b-63a0-4225-92f1-0617a8fe12ea.png)
  
  - 실행결과
+![bin-bash](https://user-images.githubusercontent.com/122597068/226344094-17db79a7-adc5-4292-b8bd-6f2f53fde283.png)
 
 ---
 
