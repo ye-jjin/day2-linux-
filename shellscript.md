@@ -27,9 +27,10 @@
 - `echo` 혹은 `printf` 로 출력할 수 있습니다.
 - 쉘 스크립트 파일을 실행하기 위해서는, 터미널의 파일이 저장된 장소에 가서 아래의 커맨드 중 하나를 선택해서 실행해야 합니다.
 
-    '$ ./test.sh
-    $ sh test.sh
-    $ bash test.sh'
-    
+'''
+ $ ./test.sh
+ $ sh test.sh
+ $ bash test.sh
+'''
     
 
