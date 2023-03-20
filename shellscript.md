@@ -36,9 +36,11 @@
  </pre>
 
  - 코드
- ![bin bash](https://user-images.githubusercontent.com/122597068/226344005-543c491b-63a0-4225-92f1-0617a8fe12ea.png)
+ 
+![bin bash](https://user-images.githubusercontent.com/122597068/226344005-543c491b-63a0-4225-92f1-0617a8fe12ea.png)
  
  - 실행결과
+ 
 ![bin-bash](https://user-images.githubusercontent.com/122597068/226344094-17db79a7-adc5-4292-b8bd-6f2f53fde283.png)
 
 ---
@@ -66,6 +68,7 @@
 
 - 코드 및 실행결과
 
+![예약변수](https://user-images.githubusercontent.com/122597068/226344162-c8c05f5f-755e-4247-b190-8520c1f165fe.png)
 
 ---
 
@@ -74,6 +77,8 @@
 - 배열 원소는 소괄호안에 공백으로 구분하여 줍니다.
 - 배열 안 원소는 문자열이든 정수든 상관 없이 쓸 수 있는 특징이 있습니다.
 - 코드 및 실행결과
+
+![배열1](https://user-images.githubusercontent.com/122597068/226344354-e0abe4fb-2cc5-4279-be0d-3a938f23aaee.png)
 
 ---
 
@@ -120,9 +125,20 @@ if [ 값1 조건식 값2 ];then
 |파일1 -ef 파일2|파일1이 파일2랑 같은 파일이면 참|
 
 - 코드
+
+![if문2](https://user-images.githubusercontent.com/122597068/226344528-96f42eec-e58a-41b6-8d75-feaba4c0551a.png)
+
 - 실행결과
+
+![if문](https://user-images.githubusercontent.com/122597068/226344451-7dbbd204-14c2-4a15-95df-45a6a9ab872d.png)
+
 - 코드
+
+![if문4](https://user-images.githubusercontent.com/122597068/226344685-81ef263d-247a-4f1b-9afb-9b52e97205da.png)
+
 - 실행결과
+
+![if문3](https://user-images.githubusercontent.com/122597068/226344617-b07da8de-75fb-479f-b18d-fd6126c26dca.png)
 
 ---
 
@@ -140,7 +156,11 @@ esac
  
 - 코드
 
+![switch2](https://user-images.githubusercontent.com/122597068/226345157-340c7875-5da6-4c72-a1e4-44f588fc0015.png)
+
 - 실행결과
+
+![swith문](https://user-images.githubusercontent.com/122597068/226344837-6978b654-d1b5-4d79-9002-a0509c2cb923.png)
 
 
 ---
@@ -155,9 +175,14 @@ do
 done
  </code>
  </pre>
+ 
 - 코드
 
+![while문2](https://user-images.githubusercontent.com/122597068/226345551-06c4bf9c-8c4c-48c8-bf5a-7a3279cbda46.png)
+
 - 실행결과
+
+![while문](https://user-images.githubusercontent.com/122597068/226345489-904298cd-027f-4009-a6be-6079cc3fffed.png)
 
 ---
 
@@ -174,6 +199,11 @@ done
  
  - 코드
  
+ ![for문2](https://user-images.githubusercontent.com/122597068/226345367-e9b8185b-661f-4644-9a4b-8e1523fa034b.png)
+ 
  - 실행결과
+
+![for문](https://user-images.githubusercontent.com/122597068/226345283-d1df6dab-8bf1-4e89-8a90-6927dfe20f7d.png)
+
 
 ---
