@@ -7,7 +7,7 @@
 
 
 |약어|이름|프롬포트|경로|
-|---|---|---|---|---|
+|-----|-----|-----|-----|
 |bash|Bourne-Again Shell|#|/bin/bash|
 |sh|Bourne Shell|$|/bin/sh|
 |csh|C Shell|%|/bin/csh|
