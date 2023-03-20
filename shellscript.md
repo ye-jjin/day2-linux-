@@ -94,7 +94,6 @@ if [ 값1 조건식 값2 ];then
  fi
  </code>
  </pre>
-
 - if 문의 조건식 종류는 다음과 같습니다.
 
 |조건식|기능|
@@ -106,7 +105,7 @@ if [ 값1 조건식 값2 ];then
 |-lt|값1 < 값2|
 |-le|값1 <= 값2|
 |-a|&&연산과 동일 and 연산|
-|-o|||연산과 동일 or 연산|
+|-o|연산과 동일 or 연산|
 
 - if 문의 파일 관련 조건식 종류는 다음과 같습니다.
 
@@ -153,7 +152,6 @@ case 변수 in
 esac
  </code>
  </pre>
- 
 - 코드
 
 ![switch2](https://user-images.githubusercontent.com/122597068/226345157-340c7875-5da6-4c72-a1e4-44f588fc0015.png)
@@ -175,7 +173,6 @@ do
 done
  </code>
  </pre>
- 
 - 코드
 
 ![while문2](https://user-images.githubusercontent.com/122597068/226345551-06c4bf9c-8c4c-48c8-bf5a-7a3279cbda46.png)
@@ -196,7 +193,6 @@ do
 done
  </code>
  </pre>
- 
  - 코드
  
  ![for문2](https://user-images.githubusercontent.com/122597068/226345367-e9b8185b-661f-4644-9a4b-8e1523fa034b.png)
