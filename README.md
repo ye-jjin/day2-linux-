@@ -5,6 +5,8 @@
 
 ![pwd](https://user-images.githubusercontent.com/122597068/226290697-d132e298-23c0-43dc-b8b2-5d37cc374fdc.png)
 
+<br/>
+
 ---
 
 ### ls
@@ -14,11 +16,13 @@
 |-----|-----|
 | ls | 현재 디렉토리에 있는 내용이 가로 방향으로 출력 |
 | ls -a | 숨겨진 파일이나 디렉토리를 출력 (리눅스에서는 파일이름 앞에 .으로 시작하면 숨겨진 파일이란 의미) |
-| ls -l | 현재 디렉토리에 있는 자세한 내용을 세로 방향으로 출력(권한,포함된 파일수,소유자,파일크기,수정일자,파일이름) |
-| ls -la | 위의 a와 l를 포함한 내용 출력(-la 와 -al은 동일한 명령어) |
+| ls -l | 현재 디렉토리에 있는 자세한 내용을 세로 방향으로 출력<br/>(권한,포함된 파일수,소유자,파일크기,수정일자,파일이름) |
+| ls -la | 위의 a와 l를 포함한 내용 출력<br/>(-la 와 -al은 동일한 명령어) |
 |ls -h | K,M,G 단위의 파일 크기를 사용하여 출력 |
 
 ![ls](https://user-images.githubusercontent.com/122597068/226292838-048d9c86-7c26-4efb-b824-ec44f28622f9.png)
+
+<br/>
 
 ---
 
@@ -30,6 +34,8 @@
 | chmod <변경될 퍼미션 값><변경할 파일/디렉토리> | 권한을 수정 |
 | chmod <변경할 사용자 권한> + / - <변경할 권한><변경할 파일/디렉토리> | 권한을 수정 |
 
+<br/>
+
 - 제일 앞의 문자 "d"는 디렉토리, "-"는 일반 파일, "i"는 링크를 의미합니다.
 - 9자리는 각각 3자리씩 나눠서 권한을 의미합니다.
 
@@ -38,6 +44,8 @@
 |첫번째|소유자의 권한|
 |두번째|그룹의 권한|
 |세번째|other(모든 사용자)에 대한 권한|
+
+<br/>
 
 - 9자리를 표현하는 문자는 "r","w","x","-" 4가지가 있습니다.
 - rwx는 각각 1비트씩 총 3비트의 공간을 차지합니다.
@@ -49,7 +57,11 @@
 |x|실행 권한(1)|
 |-|권한 없음|
 
+<br/>
+
 ![chmod](https://user-images.githubusercontent.com/122597068/226295337-fdf24000-9329-480c-a72f-c3bb6e5bd0dc.png)
+
+<br/>
 
 ---
 
@@ -64,6 +76,8 @@
 
 ![mkdir](https://user-images.githubusercontent.com/122597068/226295937-dc4f6066-ac17-428c-b3d3-92517f8cbd22.png)
 
+<br/>
+
 ---
 
 ### rm
@@ -76,6 +90,8 @@
 | rm -f <파일명> | 파일 삭제 |
 
 ![rm](https://user-images.githubusercontent.com/122597068/226322933-7eb6c58a-48aa-4705-9dbd-209b105685c7.png)
+
+<br/>
 
 ---
 
@@ -92,6 +108,8 @@
 
 ![cd](https://user-images.githubusercontent.com/122597068/226322999-62cf442a-dd4f-4cc3-9c09-5fd3a3cdf164.png)
 
+<br/>
+
 ---
 
 ### mv
@@ -106,6 +124,8 @@
 
 ![mv](https://user-images.githubusercontent.com/122597068/226323077-d4db34c9-b94e-4dc6-9bf5-365a7e3b7a95.png)
 
+<br/>
+
 ---
 
 ### cp
@@ -119,6 +139,8 @@
 
 ![cp](https://user-images.githubusercontent.com/122597068/226323160-b428edd9-94a7-40bd-8992-b5b7afbfa0eb.png)
 
+<br/>
+
 ---
 
 ### cat
@@ -130,6 +152,8 @@
 |cat -n <파일명1><파일명2> | 출력 결과 앞에 행을 붙여서 출력 |
 
 ![cat](https://user-images.githubusercontent.com/122597068/226323227-2d7474b9-b6a7-4f9a-bc70-ebc68d8648be.png)
+
+<br/>
 
 ---
 
@@ -143,6 +167,8 @@
 |enter| 1행 아래로 이동 |
 
 ![less](https://user-images.githubusercontent.com/122597068/226323413-1cd186d3-ca88-43f3-8b28-a3c61b1820c1.png)
+
+<br/>
 
 ---
 
@@ -158,10 +184,14 @@
 
 ![tail](https://user-images.githubusercontent.com/122597068/226323314-ef9ba5c5-9d5b-426d-8ae7-e14bd59fc4f7.png)
 
+<br/>
+
 ---
 
 ### clear
 - 쉘 창에 있는 기록을 모두 지워주는 명령어입니다.
+
+<br/>
 
 ---
 
@@ -172,6 +202,8 @@
 |-----|-----|
 |chown <소유자>:<그룹> <파일명>| 해당 파일의 소유자,그룹 변경 |
 |chown <소유자>:<그룹> <디렉토리명>| 해당 디렉토리의 소유자,그룹 변경 |
+
+<br/>
 
 ---
 
@@ -188,6 +220,8 @@
 
 ![ps](https://user-images.githubusercontent.com/122597068/226323549-f084840b-9354-42dd-903a-fd7783e8d460.png)
 
+<br/>
+
 ---
 
 ### grep
@@ -198,10 +232,14 @@
 |grep<패턴><파일명>| 특정 파일에서 특정 패턴을 가진 문자열을 출력 |
 |grep<패턴>*| 현재 디렉토리 모든 파일에서 특정 패턴을 가진 문자열을 출력 |
 
+<br/>
+
 ---
 
 ### man
 - 명령어를 어떻게 쓰는지 설명하는 내용을 출력하는 명령어입니다.
+
+<br/>
 
 ---
 
